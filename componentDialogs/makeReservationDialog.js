@@ -12,7 +12,7 @@ const DATETIME_PROMPT = 'DATETIME_PROMPT';
 const WATERFALL_DIALOG = 'WATERFALL_PROMPT';
 
 var endDialog = '';
-
+// make reservation dialog
 class MakeReservationDialog extends ComponentDialog {
 
     constructor(conversationState, userState) { //convstate and convdata is being passed so that comp dialog is aware of our current conv state and usermain dialog state
